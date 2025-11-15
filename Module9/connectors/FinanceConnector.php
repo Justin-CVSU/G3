@@ -26,3 +26,4 @@ function getProjectBudget($project_id) {
     $data = json_decode($resp, true);
     if (json_last_error() !== JSON_ERROR_NONE) return null;
     return $data;
+}
